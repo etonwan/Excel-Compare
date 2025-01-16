@@ -1,0 +1,11 @@
+name: myenv
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - flask=2.0.1
+  - werkzeug=2.0.1
+  - pandas=1.5.3
+  - openpyxl=3.0.7
+  - numpy=1.23.5
