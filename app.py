@@ -1,6 +1,5 @@
 from flask import Flask, request, render_template, send_file
 from werkzeug.utils import secure_filename
-# 删除或注释掉这一行
 # from werkzeug.urls import quote as url_quote
 import os
 from compare_files import compare_files
